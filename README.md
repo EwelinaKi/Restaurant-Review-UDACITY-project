@@ -1,32 +1,38 @@
-# Mobile Web Specialist Certification Course
+# Restaurant Review - project for UDACITY FrontEnd Web Developer Nanodegree Course
 ---
-#### _Three Stage Course Material Project - Restaurant Reviews_
-
-## Project Overview: Stage 1
-
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
 
 ### Specification
+The task consisted of:
+ - fixing all issues,
+ - fixing layout for web and mobile devices,
+ - applying accessibility features and
+ - applying service workers
+ in code provided for the  **Restaurant Reviews** website.
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
+### How to run project
 
-### What do I do from here?
-
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
-
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
-
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
+1. Install python3.6. To check version write `python -V` in your terminal.
+2. Run the server with command `python3 -m http.server 8000`.
+3. Open the site: `http://localhost:8000`in your browser.
 
 ## Leaflet.js and Mapbox:
 
-This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
+This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/).
 
-### Note about ES6
+## Screenshots
 
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
+
+index.thml view wide screen
+![screen1](img/screenshots/screen1.png)
+index.thml view mobile screen
+![screen2](img/screenshots/screen2.png)
+restaurant.thml view wide screen
+![screen3](img/screenshots/screen3.png)
+restaurant.thml view mobile screen
+![screen4](img/screenshots/screen4.png)
+
+
+
 
 
 
