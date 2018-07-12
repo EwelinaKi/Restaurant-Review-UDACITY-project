@@ -11,7 +11,7 @@ The task consisted of:
 
 ### How to run project
 
-[live demo](https://ewelinaki.github.io/Restaurant-Review-UDACITY-project/)
+[live demo](https://ewelinaki.github.io/UDACITY-Restaurant-Review/)
 
 1. Install python3.6. To check version write `python -V` in your terminal.
 2. Run the server with command `python3 -m http.server 8000`.
